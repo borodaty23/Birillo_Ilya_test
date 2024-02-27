@@ -7,6 +7,9 @@ export const ProjectsBox = styled.div`
   display: flex;
   column-gap: 30px;
   flex-wrap: wrap;
+  @media (max-width: 940px) {
+    justify-content: center;
+  }
 `;
 export const Box = styled.div`
   display: flex;

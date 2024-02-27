@@ -1,9 +1,9 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useAppDispatch, useAppSelector } from "../../hooks/hooks";
 import { getCardsInfo } from "../../redux/selectors/getCardsSelector";
 import { setPage } from "../../redux/reducers/mainPageReducer";
 import { getProjectCards } from "../../redux/actions/index ";
-import { useLocation, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import {
   Box,
   LeftArrow,

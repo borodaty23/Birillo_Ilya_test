@@ -1,6 +1,6 @@
 import { ICard } from "../../types/ICard";
 import { useState } from "react";
-import { useAppDispatch, useAppSelector } from "../../hooks/hooks";
+import { useAppDispatch } from "../../hooks/hooks";
 import {
   deleteCard,
   editCard,
