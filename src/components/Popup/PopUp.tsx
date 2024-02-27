@@ -1,13 +1,13 @@
-import { PopupContainer, PopupText } from './style';
+import { PopupContainer, PopupText } from "./style";
 
 interface IPopup {
-    message: string;
+  message: string;
 }
 
 export const Popup = ({ message }: IPopup) => {
-    return (
-        <PopupContainer>
-            <PopupText>{message}</PopupText>
-        </PopupContainer>
-    );
+  return (
+    <PopupContainer>
+      <PopupText>{message}</PopupText>
+    </PopupContainer>
+  );
 };
